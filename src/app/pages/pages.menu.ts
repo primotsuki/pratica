@@ -40,6 +40,17 @@ export const PAGES_MENU = [
 
           
         }
+      }, {
+        path: 'dashboard',
+        data: {
+          menu: {
+            title: 'autenticacion',
+            icon: 'ion-android-home',
+            selected: false,
+            expanded: false,
+            order: 0
+          }
+        }
       }
     ]
   }
