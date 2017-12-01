@@ -28,7 +28,11 @@ export const PAGES_MENU = [
         path: 'dashboard',
         data: {
           menu: {
+<<<<<<< HEAD
             title: 'redes',
+=======
+            title: 'autenticacion',
+>>>>>>> a20dad869eb3722352d7659c6c12a5c9f55108e3
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
