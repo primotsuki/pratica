@@ -14,23 +14,11 @@ export const PAGES_MENU = [
           }
         }
       },
-      
       {
         path: 'dashboard',
         data: {
           menu: {
-            title: 'Aplicacion',
-            icon: 'ion-android-home',
-            selected: false,
-            expanded: false,
-            order: 0
-          }
-        }
-      },
-      {
-        path: 'dashboard',
-        data: {
-          menu: {
+
             title: 'compras',
             icon: 'ion-android-home',
             selected: false,
@@ -43,31 +31,20 @@ export const PAGES_MENU = [
         path: 'dashboard',
         data: {
           menu: {
-            title: 'Registro',
+
+            title: 'inventario1',
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
             order: 0
           }
         }
-      },
-      {
+      },      {
         path: 'dashboard',
         data: {
           menu: {
-            title: 'Registro---111',
-            icon: 'ion-android-home',
-            selected: false,
-            expanded: false,
-            order: 0
-          }
-        }
-      },
-      {
-        path: 'dashboard',
-        data: {
-          menu: {
-            title: 'reventas',
+
+            title: 'inventario1',
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
