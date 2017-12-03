@@ -1251,7 +1251,7 @@ thead .htCollapseButton:after {
 }
 
 .handsontable .ht__manualRowMove--backlight {
-    background: #343434;
+    background: #790404;
     background: rgba(52, 52, 52, 0.25);
     display: none;
     z-index: 105;
