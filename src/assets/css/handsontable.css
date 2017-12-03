@@ -128,7 +128,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 .handsontable th:last-child {
     /*Foundation framework fix*/
-    border-right: 1px solid #CCC;
+    border-right: 5px solid #CCC;
     border-bottom: 1px solid #CCC;
 }
 
