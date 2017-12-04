@@ -69,7 +69,7 @@ export const PAGES_MENU = [
         data: {
           menu: {
 
-            title: 'servicios',
+            title: 'servicios1',
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
