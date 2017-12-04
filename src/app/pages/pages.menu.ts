@@ -73,8 +73,9 @@ export const PAGES_MENU = [
             order: 0
           }
         }
-      }, {
-        path: 'dashboard',
+      }, 
+      {
+        path: 'Registro',
         data: {
           menu: {
             title: 'Registro',
@@ -83,7 +84,17 @@ export const PAGES_MENU = [
             expanded: false,
             order: 0
           }
-        }
+        },
+        children: [
+          {
+            path: 'Detalles',
+            data: {
+              menu: {
+                title: 'Detalles',
+              }
+            }
+          }
+        ]
       }
     ]
   }
