@@ -77,7 +77,7 @@ export const PAGES_MENU = [
         path: 'dashboard',
         data: {
           menu: {
-            title: 'registro',
+            title: 'Registro',
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
