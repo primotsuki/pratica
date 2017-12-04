@@ -62,7 +62,22 @@ export const PAGES_MENU = [
             order: 0
           }
         }
-      },{
+      },
+      
+      {
+        path: 'dashboard',
+        data: {
+          menu: {
+
+            title: 'servicios',
+            icon: 'ion-android-home',
+            selected: false,
+            expanded: false,
+            order: 0
+          }
+        }
+      },
+      {
         path: 'dashboard',
         data: {
           menu: {
@@ -74,6 +89,6 @@ export const PAGES_MENU = [
             order: 0
           }
         }
-      }  
+      },  
   }
 ];
