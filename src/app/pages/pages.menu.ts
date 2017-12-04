@@ -18,6 +18,18 @@ export const PAGES_MENU = [
         path: 'dashboard',
         data: {
           menu: {
+            title: 'contabilidad',
+            icon: 'ion-android-home',
+            selected: false,
+            expanded: false,
+            order: 0
+          }
+        }
+      },
+      {
+        path: 'dashboard',
+        data: {
+          menu: {
 
             title: 'compras',
             icon: 'ion-android-home',
