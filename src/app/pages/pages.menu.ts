@@ -55,7 +55,7 @@ export const PAGES_MENU = [
         data: {
           menu: {
 
-            title: 'herramientas2',
+            title: 'Herramientas2',
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
