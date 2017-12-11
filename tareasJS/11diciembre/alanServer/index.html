@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:3000/usuarios" method="post">
+        <h4>Registrar Usuario</h4><br>
+        Nombre : <input type="text" name="name"><br>
+        Edad   : <input type="text" name="edad"><br>
+
+        <input type="submit" value="Enviar"><br>
+    </form>
+    <hr>
+    <form action="http://localhost:3000/autos" method="post">
+        <h4>Registrar Autos</h4><br>
+        Marca : <input type="text" name="marca"><br>
+        Año   : <input type="text" name="anio"><br>
+        Id Usuario : <input type="text" name="idUsuario"><br>
+        <input type="submit" value="Enviar"><br>
+    </form>
+    <hr>
+    <form action="http://localhost:3000/usuarios" method="get">
+        Listar usuarios
+        <input type="submit" value="Go">
+    </form>
+    <hr>
+    <form action="http://localhost:3000/usuarios" method="get">
+        Buscar Usuario <br>
+        Ingrese el id :
+        <input type="text" name="id">
+        <input type="submit" value="Buscar">
+    </form>
+</body>
+</html>

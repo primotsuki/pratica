@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/usuarios',function(request,response){
-    var data = request.body;
+    var data = request.query;
     var resp = "";
     if(data.id !== undefined){
         resp += h2.init + "Usuario Encontrado" + h2.end;
