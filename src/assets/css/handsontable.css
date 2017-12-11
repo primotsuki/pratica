@@ -128,7 +128,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 .handsontable th:last-child {
     /*Foundation framework fix*/
-    border-right: 1px solid #CCC;
+    border-right: 5px solid #CCC;
     border-bottom: 1px solid #CCC;
 }
 
@@ -1251,7 +1251,7 @@ thead .htCollapseButton:after {
 }
 
 .handsontable .ht__manualRowMove--backlight {
-    background: #343434;
+    background: #790404;
     background: rgba(52, 52, 52, 0.25);
     display: none;
     z-index: 105;
