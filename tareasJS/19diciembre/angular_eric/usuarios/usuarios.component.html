@@ -1,0 +1,9 @@
+<p>Lista de usuarios</p>
+<ul>
+  <li *ngFor="let usuario of usuarios">{{ usuario.nombre }}</li>
+</ul>
+
+<h3>Añadir usuario</h3>
+Nombre: <input type="text" [(ngModel)]="usuario.nombre">
+Edad : <input type="number" [(ngModel)]="usuario.edad">
+<button (click)="nuevoUsuario()">Añadir usuario</button>
