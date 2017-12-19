@@ -1,0 +1,12 @@
+<p>
+ Lista de usuarios
+</p>
+
+<ol>
+  <li *ngFor="let usuario of usuarios">{{usuario.nombre}}</li>
+</ol>
+
+
+<h3>añadir nuevo usuario</h3>
+Nombre: <input type="text" [(ngModel)]="usuario.nombre">
+<button (click)="nuevoUsuario()">Añadir Usuario</button>
