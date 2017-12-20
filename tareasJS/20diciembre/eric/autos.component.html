@@ -4,3 +4,7 @@
 <ul>
   <li *ngFor="let auto of autos">{{auto.nombre}}</li>
 </ul>
+<h3>Añadir auto</h3>
+Nombre: <input type="text" [(ngModel)]="auto.nombre">
+Marca : <input type="text" [(ngModel)]="auto.marca">
+<button (click)="nuevoAuto()">Añadir auto</button>

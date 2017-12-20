@@ -11,6 +11,10 @@ export class AutosService {
     return this.http.get('http://localhost:3000/autos').toPromise();
   }
 
+  crearAuto(auto){
+    return this.http.post('http://localhost:3000/autos', auto).toPromise();
+  }
+
 }
 
 
