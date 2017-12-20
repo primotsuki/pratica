@@ -1,0 +1,9 @@
+
+<h3>Mostrar Auto de un usuario</h3>
+IdPersona: <input type="text" [(ngModel)]="persona">
+<button (click)="ngOnInit()">mostrarAuto</button>
+
+
+<ol>
+  <li *ngFor="let auto of autos">{{auto.marca}}</li>
+</ol>
