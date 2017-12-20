@@ -1,0 +1,10 @@
+<ul>
+  <input type="text" [(ngModel)]="personaid">
+  <button (click)="ngOnInit()">obtener autos por id usuario</button>
+  
+  <input type="text" [(ngModel)]="personaids">
+  <button (click)="nuevoAuto()">agregar autos por id usuario</button>
+
+    <li *ngFor ="let auto of autos">{{auto.marca}}</li>
+   
+  </ul>
