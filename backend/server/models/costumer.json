@@ -1,0 +1,25 @@
+{
+  "name": "costumer",
+  "plural": "costumers",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "credit": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Usuario": {
+      "type": "hasMany",
+      "model": "noticia",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
